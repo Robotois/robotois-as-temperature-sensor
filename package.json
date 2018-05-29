@@ -1,0 +1,32 @@
+{
+  "name": "robotois-as-temperature-sensor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robotois/robotois-as-temperature-sensor.git"
+  },
+  "keywords": [
+    "atlas scientific",
+    "Temperature sensor",
+    "Raspberry pi",
+    "sensor",
+    "robotois",
+    "IOT"
+  ],
+  "author": "yovany.lg@gmail.com",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/Robotois/robotois-as-temperature-sensor/issues"
+  },
+  "homepage": "https://github.com/Robotois/robotois-as-temperature-sensor#readme",
+  "dependencies": {
+    "bindings": "^1.3.0"
+  }
+}
