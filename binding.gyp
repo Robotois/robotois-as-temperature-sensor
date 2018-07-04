@@ -7,7 +7,8 @@
         "src/lib/wrapper/TempWrapper.cpp",
         "src/lib/TemperatureSensor/TemperatureSensor.cpp",
       ],
-      "libraries": ["-l bcm2835", "-l rt"]
+      "libraries": ["-l bcm2835", "-l rt"],
+      "cflags_cc": ['-fexceptions']
     }
   ]
 }

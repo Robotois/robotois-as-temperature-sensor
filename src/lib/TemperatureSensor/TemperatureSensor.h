@@ -32,6 +32,7 @@ private:
     void bcm_init();
     void bcm_end();
     void selectModule();
+    float roundedValue(float value);
     
 };
 

@@ -1,6 +1,6 @@
 const Sensor = require('../');
 
-const temp = new Sensor();
+const temp = Sensor();
 
 setTimeout(() => {
   console.log('temp value:', temp.read());
